@@ -1,0 +1,128 @@
+h1{
+	color: #F7AAD4;
+	
+}
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Zen Dots';
+	color: black;
+	font-size: 96px;
+}
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 10px;
+}
+
+/*header*/
+.container{
+	width: 1390px;
+	margin: 0 auto;
+
+}
+header a {
+	color: #F7AAD4;
+	
+}
+.header-position {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.header{
+	background: linear-gradient(to right, #152331, #000);
+	padding-bottom:120px;
+}
+.header-img {
+	width: 400px;
+	height: 535px;
+	background-image: url('img/img1.png');
+	background-size: cover;
+    align-self: flex-end;
+}
+
+.menu{
+	display: flex;
+	
+}
+.menu li a{
+	text-decoration: none;
+	font-size: 16px;
+
+
+}
+.menu li a:hover {
+	border-bottom: 1px solid #F7AAD4;
+}
+.menu li{
+	margin-right: 40px;
+}
+
+.menu-box {
+	display: flex;
+	align-items: center;
+	color: #F7AAD4;
+	font-size: 24px;
+	padding-top: 50px;
+	padding-bottom: 78px;
+}
+
+.name {
+	color: #F7AAD4;
+	padding-bottom: 40px;
+}
+.welcome {
+	width: 480px;
+	color: #618EFF;
+	font-size: 14px;
+	padding-bottom: 40px;
+}
+.btn {
+	display: block;
+	font-size: 24px;
+	text-align: center;
+	padding: 15px 30px;
+	color: #F7AAD4;
+	background-color: #618EFF;
+	border: none;
+	width: 210px;
+	text-decoration: none;
+	transition-duration: 0.4s;
+
+}
+
+.btn:hover {
+    background-color: #83A5FB; 
+    color: #F7AAD4;
+}
+
+.intr{
+	width: 810px;/*текст ниже меню*/
+}
+
+section{
+	padding-top: 50px;
+}
+
+
+/*section-1*/
+
+.about-img{
+width: 400px;
+	height: 535px;
+	background-image: url('img/img2.png');
+	background-size: cover;
+    align-self: flex-end;
+
+}
+.about-box{
+    width: 575px;
+}
+
+
+
+
+
+
